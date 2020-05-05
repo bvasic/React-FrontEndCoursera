@@ -1,0 +1,26 @@
+{
+  "name": "coursera",
+  "version": "1.0.0",
+  "description": "Coursera course",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bvasic@bitbucket.org/bvasic/coursera.git"
+  },
+  "author": "Bojan Vasic",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/bvasic/coursera#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "create-react-app": "^1.5.2",
+    "node": "^13.12.0",
+    "yarn": "^1.22.4"
+  }
+}
