@@ -1,26 +1,50 @@
 {
-  "name": "coursera",
-  "version": "1.0.0",
-  "description": "Coursera course",
-  "main": "index.html",
-  "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://bvasic@bitbucket.org/bvasic/coursera.git"
-  },
-  "author": "Bojan Vasic",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/bvasic/coursera#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  },
+  "name": "confusion",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "create-react-app": "^1.5.2",
-    "node": "^13.12.0",
-    "yarn": "^1.22.4"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "bootstrap-social": "5.1.1",
+    "cross-fetch": "2.1.0",
+    "font-awesome": "4.7.0",
+    "prop-types": "15.6.0",
+    "react": "^16.13.1",
+    "react-animation-component": "^0.2.3",
+    "react-animation-components": "3.0.0",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-redux": "5.0.7",
+    "react-redux-form": "1.16.8",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "3.4.1",
+    "react-transition-group": "2.3.0",
+    "reactstrap": "^8.4.1",
+    "redux": "3.7.2",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
