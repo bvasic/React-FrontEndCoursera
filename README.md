@@ -2,5 +2,5 @@
 
 Coursera application
 
-** IN ROOT FOLDER START SERVER
+> IN ROOT FOLDER START SERVER  
 ** in /React start folder start react application
